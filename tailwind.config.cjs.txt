@@ -1,0 +1,14 @@
+module.exports = {
+  content: ['./index.html', './src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#3ec7a8',
+        accent: '#41a7ff',
+        panel: '#0b2030'
+      },
+      borderRadius: { xl: '1.375rem' }
+    }
+  },
+  plugins: []
+};
